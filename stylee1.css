@@ -1,0 +1,138 @@
+/* background becomes blue */
+body {
+    background-color: rgb(108, 146, 134);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* body{
+    background-image: url('img2.jpg');
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+
+*{
+    box-sizing: border-box;
+  
+}
+
+h2{
+    font-size: calc(1.325rem + .9vw);
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    /* background: transparent; */
+}
+
+.cont{
+    width: 500px;
+    border: 2px solid black;
+    padding: 30px;
+    background: transparent;
+    border-radius: 15px;
+    margin: 20px;
+    display: block;
+     /* background: transparent; */
+    background-color: white;
+    
+}
+.cont1{
+    width: 500px;
+    border: 2px solid black;
+    padding: 30px;
+    background: transparent;
+    border-radius: 15px;
+    margin: 20px;
+    display: block;
+    background-color: white;
+     /* background: transparent; */
+    
+}
+
+input{
+    
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    /* background-color: rgb(165, 177, 182); */
+    background-color: rgb(230, 247, 247);
+    color: black;
+    
+}
+
+label{
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.button {
+    /* background: rgb(57, 104, 122); */
+    background: black;
+    /* background:#343a40; */
+
+    padding: 13px;
+    color: white;
+    border-radius: 23px;
+    /* margin: auto 157px; */
+    display: block;
+    margin: 0 auto;
+    width: 122px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-style:inherit;
+}
+a{
+    text-decoration: none;
+}
+
+#register {
+    padding: 13px;
+    color:white;
+    border-radius: 23px;
+    /* background-color: red; */
+    background-color: rgb(245 9 36);
+    display: block;
+    margin: 18px auto;
+    width: 223px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#register a{
+    text-decoration: none;
+
+}
+
+/* bootstrap */
+.alert-warning {
+    color: #664d03;
+    background-color:  #bfc2e2;;
+    border-color: #ffecb5;
+    bottom: 15px;
+   
+}
+
+.alert-dismissible {
+    padding-right: 3rem;
+}
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.fade {
+    transition: opacity .15s linear;
+}

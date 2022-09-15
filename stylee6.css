@@ -1,0 +1,27 @@
+/*........................................*/
+
+ul li .content
+{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-50%) translateY(-50px);
+}
+ul li:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px);
+}
+ul li .content:before
+{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    bottom: 0;
+    transform: rotate(45deg);
+}
+
+/*........................................*/
